@@ -1,13 +1,10 @@
+"scripts": {
+  "dev": "next dev --turbopack",
+  "build": "next build --turbopack --no-lint",
+  "start": "next start",
+  "lint": "next lint"
+}
 {
-  "name": "appointment-app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start",
-    "lint": "eslint"
-  },
   "dependencies": {
     "@ant-design/cssinjs": "^1.24.0",
     "antd": "^5.27.3",
