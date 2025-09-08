@@ -1,10 +1,13 @@
-"scripts": {
-  "dev": "next dev --turbopack",
-  "build": "next build --turbopack --no-lint",
-  "start": "next start",
-  "lint": "next lint"
-}
 {
+  "name": "appointment-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack --no-lint",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@ant-design/cssinjs": "^1.24.0",
     "antd": "^5.27.3",
@@ -27,6 +30,8 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "postcss": "^8",
+    "autoprefixer": "^10"
   }
 }
